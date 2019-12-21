@@ -28,10 +28,10 @@ def find_greater_pair(src)
   
   while i < src.length do 
     inner = src[i]
-      if inner[0] > inner[1]
+    if inner[0] > inner[1]
       new_arr[i] = inner[0]
-      else new_arr[i] = inner[1]
-      end
+    else new_arr[i] = inner[1]
+    end
     i += 1
     end
     new_arr
