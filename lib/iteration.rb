@@ -46,4 +46,15 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
+  total = 0
+  i = 0 
+  
+  while i < src.length do 
+    inner = src[i]
+    if inner[0]%2 == 0 && inner[1]%2 == 0
+      total += inner[0] + inner[1]
+    end
+    i += 1
+  end 
+  total 
 end
