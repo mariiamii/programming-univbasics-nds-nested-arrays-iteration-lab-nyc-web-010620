@@ -17,12 +17,6 @@ def join_ingredients(src)
   result
 end
 
-result = []
-row_index = 0 
-while index < src.length do 
-  element_index = 0 
-  result << 
-
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
