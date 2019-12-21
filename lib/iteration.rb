@@ -33,8 +33,8 @@ def find_greater_pair(src)
     else new_arr[i] = inner[1]
     end
     i += 1
-    end
-    new_arr
+  end
+  new_arr
 end
 
 def total_even_pairs(src)
