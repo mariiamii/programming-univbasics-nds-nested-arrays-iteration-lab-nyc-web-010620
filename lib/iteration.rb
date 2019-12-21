@@ -23,10 +23,10 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
-  array = []
   i = 0 
+  arrLarge = []
   
-  while i < src.length do 
+  while i<src.length do 
     inner = src[i]
     if inner[0] > inner[1]
       arrLarge[i] = inner[0]
