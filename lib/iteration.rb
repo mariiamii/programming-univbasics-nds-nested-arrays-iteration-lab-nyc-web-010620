@@ -26,7 +26,7 @@ def find_greater_pair(src)
   new_arr = []
   i = 0 
   
-  while i<src.length do 
+  while i < src.length do 
     inner = src[i]
     if inner[0] > inner[1]
       new_arr[i] = inner[0]
